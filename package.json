@@ -1,0 +1,22 @@
+{
+  "name": "peano",
+  "version": "1.0.0",
+  "description": "Virtual piano to play on your browser",
+  "main": "main.js",
+  "devDependencies": {
+    "standard": "^16.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tim-751/peano.git"
+  },
+  "author": "Tim Etkin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tim-751/peano/issues"
+  },
+  "homepage": "https://github.com/Tim-751/peano#readme"
+}
