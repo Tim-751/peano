@@ -3,21 +3,20 @@
 
 <body>
 
-  <p>Before the script...</p>
-
-  <script src="simpleTones.js"></script>
   <script src="main.js"></script>
 
-  <p>...After the script.</p>
+  <button onclick="playTone('C4')">C4</button>
+  <button onclick="playTone('D4')">D4</button>
+  <button onclick="playTone('E4')">E4</button>
+  <button onclick="playTone('F4')">F4</button>
+  <button onclick="playTone('G4')">G4</button>
+  <button onclick="playTone('A4')">A4</button>
+  <button onclick="playTone('B4')">B4</button>
+  <button onclick="playTone('C5')">C5</button>
 
-  <button onclick="playTone('C4')">Tone</button>
-  <button onclick="playTone('D4')">Tone</button>
-  <button onclick="playTone('E4')">Tone</button>
-  <button onclick="playTone('F4')">Tone</button>
-  <button onclick="playTone('G4')">Tone</button>
-  <button onclick="playTone('A4')">Tone</button>
-  <button onclick="playTone('B4')">Tone</button>
-  <button onclick="playTone('C5')">Tone</button>
+  <div class="slidecontainer">
+    <input type="range" min="1" max="100" value="50" class="slider" id="volumeSlider">
+  </div>
 </body>
 
 </html>
