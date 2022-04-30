@@ -1,9 +1,13 @@
 <!DOCTYPE HTML>
 <html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
 
 <body>
 
   <script src="main.js"></script>
+  <script src="slidesDisplay.js"></script>
 
   <button onclick="playTone('C4')">C4</button>
   <button onclick="playTone('D4')">D4</button>
@@ -17,6 +21,28 @@
   <div class="slidecontainer">
     <input type="range" min="1" max="100" value="50" class="slider" id="volumeSlider">
   </div>
+
+<!-- <div class="container">
+  <div class="showSlider fade">
+  <img src="assets/pic1.jpg" alt= "Entering Library"/>
+  <div class="contentBook">Enter into Library</div>
+  </div>
+  <div class="showSlider fade">
+  <img src="assets/pic2.jpg" alt = "Select Book"/>
+  <div class="contentBook">Select your book</div>
+  </div>
+  <div class="showSlider fade">
+  <img src="assets/pic3.jpg" alt="Registering ID"/>
+  <div class="contentBook">Register your Library ID</div>
+  </div> -->
+  <!-- Navigation arrows -->
+<!--   <a class="left" onclick="nextSlide(-1)">❮</a>
+  <a class="right" onclick="nextSlide(1)">❯</a>
+</div> -->
+<img src="assets/keyboard.png" style="cursor:pointer" id="keyboard" height="200">
+<img src="assets/keyboardBox.png" style="cursor:pointer" id="keyboardBox" height="200">
+<script src="keyboardBoxDrag.js"></script>
+
 </body>
 
 </html>
